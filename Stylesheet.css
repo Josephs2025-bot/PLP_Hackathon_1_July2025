@@ -1,0 +1,459 @@
+/* Background gradient theme */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0a192f;
+    min-height: 100vh;
+    color: #ccd6f6;
+}
+
+/* Header styles */
+header {
+    background: #112240;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(100,255,218,0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #64ffda;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #64ffda;
+    background: #112240;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background: #64ffda;
+    color: #0a192f;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Section box styling */
+section {
+    background: #112240;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(100,255,218,0.10);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Intro section styling */
+.intro-section {
+    background: #112240;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(100,255,218,0.10);
+    padding: 2.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.intro-text h1 {
+    font-size: 2.8rem;
+    color: #64ffda;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: bold;
+}
+
+.intro-photo {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 4px 16px rgba(100,255,218,0.15);
+    border: 3px solid #64ffda;
+}
+
+/* About section with flexbox */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 4px 16px rgba(100,255,218,0.15);
+    border: 3px solid #64ffda;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #64ffda;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #ccd6f6;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact section form styling */
+#Contact form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#Contact label {
+    font-weight: 500;
+    color: #64ffda;
+}
+
+#Contact input,
+#Contact textarea {
+    padding: 0.5rem;
+    border: 1px solid #64ffda;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #0a192f;
+    color: #ccd6f6;
+    resize: vertical;
+}
+
+#Contact input:focus,
+#Contact textarea:focus {
+    outline: 2px solid #64ffda;
+    background: #112240;
+}
+
+#Contact button {
+    background: #64ffda;
+    color: #0a192f;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+#Contact button:hover {
+    background: #112240;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+}
+
+/* Download CV link */
+a[download] {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #64ffda;
+    color: #0a192f;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+a[download]:hover {
+    background: #112240;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #112240;
+    color: #64ffda;
+    font-size: 1rem;
+    border-top: 1px solid #64ffda;
+    margin-top: 2rem;
+}
+
+/* Contact methods grid */
+.contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.contact-box {
+    background: #0a192f;
+    border: 2px solid #64ffda;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(100,255,218,0.10);
+    padding: 1rem 1.5rem;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ccd6f6;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.contact-box:hover {
+    box-shadow: 0 4px 16px rgba(100,255,218,0.20);
+    border-color: #112240;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #64ffda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.contact-label {
+    font-weight: bold;
+    color: #64ffda;
+    margin-bottom: 0.2rem;
+}
+
+.contact-value a {
+    color: #64ffda;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.contact-value a:hover {
+    text-decoration: underline;
+}
+
+/* Education grid */
+.education-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.education-box {
+    background: #0a192f;
+    border: 2px solid #64ffda;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(100,255,218,0.10);
+    padding: 1rem 1.5rem;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ccd6f6;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.education-box:hover {
+    box-shadow: 0 4px 16px rgba(100,255,218,0.20);
+    border-color: #112240;
+}
+
+.education-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #64ffda;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.education-details,
+.education-year {
+    font-size: 0.95rem;
+    color: #b2becd;
+    margin-bottom: 0.15rem;
+    text-align: center;
+}
+
+.education-year {
+    font-size: 0.85rem;
+    color: #8892b0;
+}
+
+/* Gallery grid styles */
+.gallery-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.gallery-item {
+    background: #112240;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(100,255,218,0.10);
+    overflow: hidden;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 32px rgba(100,255,218,0.18);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 2px solid #64ffda;
+}
+
+.gallery-caption {
+    padding: 0.7rem;
+    color: #64ffda;
+    font-size: 1rem;
+    text-align: center;
+    background: #0a192f;
+    width: 100%;
+}
+
+/* Back to top icon */
+.back-to-top {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.back-to-top a {
+    display: inline-block;
+    font-size: 2.2rem;
+    color: #64ffda;
+    background: #112240;
+    border-radius: 50%;
+    padding: 0.5rem 0.8rem;
+    box-shadow: 0 2px 8px rgba(100,255,218,0.10);
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+}
+
+.back-to-top a:hover {
+    background: #64ffda;
+    color: #0a192f;
+}
+
+/* Responsive for contact boxes */
+@media (max-width: 700px) {
+    .contact-methods {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-box {
+        width: 90%;
+        min-width: unset;
+    }
+    main {
+        padding: 0.5rem;
+    }
+    .about-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-photo {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-top: 1rem;
+    }
+    section {
+        padding: 1rem;
+    }
+}
+
+/* Responsive for education boxes */
+@media (max-width: 700px) {
+    .education-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .education-box {
+        width: 90%;
+        min-width: unset;
+    }
+}
+
+/* Responsive for intro section */
+@media (max-width: 700px) {
+    .intro-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .intro-photo {
+        margin-top: 1rem;
+        width: 90vw;
+        max-width: 270px;
+        height: auto;
+    }
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Responsive gallery */
+@media (max-width: 700px) {
+    .gallery-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-item {
+        width: 90vw;
+        max-width: 320px;
+    }
+}
