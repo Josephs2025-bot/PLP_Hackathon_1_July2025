@@ -43,14 +43,14 @@
             <div class="about-container">
                 <div class="about-text">
                     <h2>About</h2>
-                    <h3>Who Am I?</h3>
+                    <h3>👤Who Am I?</h3>
                     <p>
                         Hello! I’m a visionary young Kenyan with a deep passion for technology; particularly software development. I’m currently pursuing my studies as a Clinical Officer, and I’m driven by the desire to bridge the gap between healthcare and technology. My goal is to optimize healthcare service delivery and inspire innovative solutions that transform lives. I believe in empowering young minds to explore the possibilities of tech in health.
                         Let’s connect and turn this vision into reality.
                     </p>
-                    <h3>What Drives Me</h3>
+                    <h3>❤️What Drives Me</h3>
                     <p>I’m driven by the belief that technology holds the power to solve real-world problems, especially in the healthcare space. Growing up in Kenya, I’ve witnessed the challenges that both patients and providers face, and this fuels my commitment to create impactful solutions. Every line of code I write is guided by a desire to make healthcare smarter, faster, and more accessible. I’m also passionate about encouraging other young people to dream big, explore tech, and use it as a tool for positive change.</p>
-                    <h3>My Mission</h3>
+                    <h3>📌My Mission</h3>
                     <p>My mission is to be at the forefront of merging healthcare and technology to improve lives. I aim to build innovative tools that simplify service delivery, empower healthcare workers, and enhance patient care. Through continuous learning and collaboration, I’m working toward a future where young minds in Africa are not just users of technology, but creators and changemakers. Every project I take on is a step toward that goal.</p>
                 </div>
             </div>
@@ -120,75 +120,96 @@
         </section>
 
         <section id="Skills and Experiences">
-            <!--This is where I flex in the skills that I am proficient in, in relation to the personal blog which focuses on technology-->
             <h2>Skills and Experiences</h2>
-            <Ul>
-                <li>Project Management</li>
-                <li>Git</li>
-                <li>HTML</li>
-                <LI>CSS</LI>
-                <li>Leadership</li>
-            </Ul>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="Images/git.svg" alt="Git" class="skill-icon">
+                    <span>Git</span>
+                </div>
+                <div class="skill-card">
+                    <img src="Images/html5.svg" alt="HTML" class="skill-icon">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-card">
+                    <img src="Images/css3.svg" alt="CSS" class="skill-icon">
+                    <span>CSS</span>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">&#128736;</span>
+                    <span>Project Management</span>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">&#129309;</span>
+                    <span>Leadership</span>
+                </div>
+            </div>
         </section>
 
         <section id="Interests">
             <h2>Interests</h2>
-            <ul>
-                <li>Technology</li>
-                <li>Healthcare</li>
-                <li>Music</li>
-                <li>Automobiles</li>
-            </ul>
+            <div class="interests-pills">
+                <span class="interest-pill">Technology</span>
+                <span class="interest-pill">Healthcare</span>
+                <span class="interest-pill">Music</span>
+                <span class="interest-pill">Automobiles</span>
+            </div>
         </section>
 
         <section id="Projects">
             <h2>Projects</h2>
+            <p class="projects-subtext">As an undergraduate academic requirement</p>
             <ul>
                 <li>Prevalence of preterm births</li>
             </ul>
         </section>
 
+        <!-- Gallery Section -->
         <section id="Gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="Images/EXEC -9.jpg" alt="Executive Event" />
-                <div class="gallery-caption">Leadership Moments</div>
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Images/EXEC -9.jpg" alt="A group photo of the JKUATCU executive members exiting office." />
+                    <div class="gallery-caption">Leadership Moments</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/JoseElders.jpg" alt="A group photo of Joseph and friends on a dinner event. " />
+                    <div class="gallery-caption">Social Engagement</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/JoseMed.jpg" alt="A photo of Joseph in a white coat with a stethoscope wrapped around his neck." />
+                    <div class="gallery-caption">Healthcare in Action</div>
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="Images/JoseElders.jpg" alt="With Elders" />
-                <div class="gallery-caption">Community Engagement</div>
-            </div>
-            <div class="gallery-item">
-                <img src="Images/JoseMed.jpg" alt="Medical Event" />
-                <div class="gallery-caption">Healthcare in Action</div>
-            </div>
+        </section>
+
+        <!-- Download CV Link -->
+        <a href="Resume Joseph Gichuhi.pdf" download>Download My CV</a>
+
+        <!-- Contact Form in a Box -->
+        <section id="ContactFormSection">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Back to Top Button -->
+        <div class="back-to-top">
+            <a href="#top" title="Back to Top">&#8679;</a>
         </div>
-    </section>
-
-        <a href="cv.pdf" download>Download My CV</a>
-
-        <H2>Contact Me</H2>
-        <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <br>
-        <button type="submit">Send</button>
-    </form>
-    
-</section>
 
     </main> 
- </body>
-
- <footer>
+<footer>
     <!--This is where I sign off my page-->
     &copy;2025 Joseph Gichuhi. This has been made with love❤️ and lots of coffee. 
- </footer>
+</footer>
 </html>
